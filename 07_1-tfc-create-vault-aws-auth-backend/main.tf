@@ -1,11 +1,6 @@
 //-------------------------------------------------
 //-Enable AWS Auth Method
 //-------------------------------------------------
-
-provider "aws" {
-  region = var.aws_region
-}
-
 resource "vault_auth_backend" "main" {
   type = "aws"
   path = var.aws_master_auth
