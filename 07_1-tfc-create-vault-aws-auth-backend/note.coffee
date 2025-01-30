@@ -6,8 +6,7 @@ Assign the AWS IAM user credentials to the AWS auth method configuration.
 Configure a Vault Dedicated role to authenticate AWS services with a trusted AWS IAM role.
 Validate the configuration using a EC2 instance and the Vault binary.
 
-access key = AKIAQQABDVW3TR2WTGFX
-secret key = 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
+
 
 
 
